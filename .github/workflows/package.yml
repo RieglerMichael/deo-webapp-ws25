@@ -13,7 +13,7 @@ env:
 
 jobs:
   build-and-push-backend-image:
-    runs-on: ubunut-latest
+    runs-on: ubuntu-latest
     permissions:
       packages: write
       id-token: write
